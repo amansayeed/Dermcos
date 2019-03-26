@@ -1,0 +1,212 @@
+/*
+Theme Name: Blog Inn
+Theme URI: https://maneshpro.com/downloads/blog-inn/
+Author: Manesh Timilsina
+Author URI: https://maneshpro.com/
+Description: Blog Inn is child theme of Blog Way. It is a minimalistic WordPress theme dedicated to blogs. Blog Inn provides a responsive layout with unlimited colors. It allows you to change the way you introduce posts for pictures and texts for an appealing look. It is modern, clean, colorful and responsive. Blog Inn supports Woo-Commerce and can be used for perfect e-Commerce sites too.
+Version: 1.0.3
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: blog-inn
+Template: blog-way
+Tags: custom-background, custom-colors, custom-menu, custom-logo, featured-image-header, featured-images, full-width-template, one-column, two-columns, sticky-post, theme-options, threaded-comments, translation-ready, footer-widgets, blog, left-sidebar, right-sidebar
+*/
+
+a:focus, 
+a:hover {
+    text-decoration: none;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Lora', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+
+.wpcf7-form label {
+    width: 100%;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="url"], 
+input[type="password"], 
+input[type="search"], 
+input[type="number"], 
+input[type="tel"], 
+input[type="range"], 
+input[type="date"], 
+input[type="month"], 
+input[type="week"], 
+input[type="time"], 
+input[type="datetime"], 
+input[type="datetime-local"], 
+input[type="color"], 
+textarea{
+    color: #999;
+    font-weight: normal;
+    width: 100%;
+}
+
+.main-banner h1.site-title{
+    padding-bottom: 0;
+}
+
+header#masthead {
+    border-bottom: 1px solid #eee;
+}
+
+.main-navigation ul li{
+	padding: 15px 0;
+}
+
+#site-navigation ul.menu > li > a {
+    border-left: 1px solid #eee;
+}
+
+#site-navigation ul.menu li a {
+    font-size: 13px;
+    padding: 0 15px;
+    line-height: 1;
+    
+}
+
+#site-navigation ul.menu > li:first-child a {
+	border-left: none;
+	padding-left: 0px;
+}
+
+.main-navigation ul ul{
+    top: 40px;
+}
+
+.main-navigation li.menu-item-has-children > a::after, 
+.main-navigation ul li li.menu-item-has-children > a::after, 
+.main-navigation ul li li.page_item_has_children > a::after{
+    right: 15px;
+}
+
+.entry-header {
+    padding: 0;
+    text-align: left;
+}
+
+.page-content, 
+.entry-content, 
+.entry-summary {
+    margin: 10px 0 0;
+}
+
+.page h2.entry-title,
+.single .entry-header h2.entry-title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    text-decoration: none;
+}
+
+blockquote {    
+    font-size: 14px;
+}
+
+.widget_search form input[type="submit"] {
+    padding: 11px 20px 10px 20px;
+}
+
+footer.entry-footer{
+	padding: 0;
+	clear: both;
+	font-style: italic;
+}
+
+footer.entry-footer span.author.vcard {
+    text-transform: capitalize;
+}
+
+.site-title a,
+.site-description,
+.main-navigation ul li a,
+.cat-links a,
+.entry-header h2.entry-title a,
+.btn-more,
+.woocommerce div.product form.cart .variations label{
+    font-family: 'Lora', sans-serif;
+}
+
+.woocommerce .star-rating span::before, 
+#add_payment_method .wc-proceed-to-checkout a.checkout-button:hover, 
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, 
+.woocommerce-checkout .wc-proceed-to-checkout a.checkout-button:hover, 
+.woocommerce .cart .button:hover, 
+.woocommerce .cart input.button:hover, 
+.woocommerce a.button:hover, 
+.woocommerce #payment #place_order:hover, 
+.woocommerce-page #payment #place_order:hover, 
+.woocommerce #review_form #respond .form-submit input:hover, 
+.woocommerce button.button.alt.disabled:hover, 
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current, 
+.pagination .page-numbers:hover, 
+.pagination .page-numbers.next:hover, 
+.pagination .page-numbers.previous:hover, 
+.pagination .page-numbers.current {
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+
+
+#breadcrumb {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#primary #breadcrumb ul{
+    padding-left: 0px;
+    float: left;
+    margin: 0;
+}
+
+#breadcrumb ul li {
+    list-style: none;
+    float: left;
+    padding-right: 5px;
+}
+
+#breadcrumb ul li a{
+    display: inline-block;
+}
+
+#breadcrumb ul li a:after{
+    content:"/";
+    display: block;
+    float: right;
+    margin-left: 5px;
+
+}
+
+header.page-header {
+    display: none;
+}
+
+#content .layout-left-sidebar {
+    float: right;
+}

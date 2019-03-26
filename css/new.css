@@ -1,0 +1,473 @@
+  /* </style>     <style type="text/css">
+  @font-face{font-family:'Lucida Calligraphy';src:url('../fonts/Lucida Calligraphy Italic.ttf');font-family:'Lucida Bright';src:url(../fonts/Lucida_Bright_Italic.ttf)}
+  body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff;text-align:justify}
+  a{text-decoration:none;color:#fff}
+  a:hover{text-decoration:none;color:#e55c88}
+  .carousel{height:500px;margin-bottom:60px}
+  .carousel-caption{z-index:10}
+  .carousel .item{height:500px;background-color:#777}
+  .carousel-inner > .item > img{position:absolute;top:0;left:0;min-width:100%;height:500px}
+  .glyphicon{color:#e14376}
+  .marketing .col-lg-4{margin-bottom:20px;text-align:center}
+  .marketing h2{font-weight:400}
+  .marketing .col-lg-4 p{margin-right:10px;margin-left:10px}
+  .featurette-divider{margin:80px 0}
+  .featurette-heading{font-weight:300;line-height:1;letter-spacing:-1px}
+  .pr{position:relative}
+  .faq ul{padding-left:15px}
+  .faq ul li{font-weight:700;font-size:20px}
+  .menu_downright ul{margin:20px 0 0;_margin:0;opacity:0;visibility:hidden;position:absolute;top:61px;left:0;z-index:1;background:#e55c88;padding:0;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out}
+  .pdb0{padding-bottom:0!important}
+  .menu_downright li:hover > ul{opacity:1;visibility:visible;margin:0}
+  .menu_downright ul li{width:230px;float:none;display:block;border:0;_line-height:0;-moz-box-shadow:0 1px 0 #000,0 1px 0 #fff;-webkit-box-shadow:0 1px 0 #000,0 1px 0 #fff;box-shadow:0 1px 0 #969696}
+  .menu_downright ul li:last-child{-moz-box-shadow:none;-webkit-box-shadow:none;box-shadow:none}
+  .menu_downright ul a{padding:10px;_height:10px;display:block;white-space:nowrap;float:none;text-transform:none;color:#fff!important}
+  .menu_downright ul li:first-child > a{-moz-border-radius:3px 3px 0 0;-webkit-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0}
+  .menu_downright ul li:first-child > a:after{content:'';position:absolute;left:40px;top:-6px;border-left:6px solid transparent;border-right:6px solid transparent;border-bottom:6px solid #969696}
+  .menu_downright ul li:last-child > a{-moz-border-radius:0 0 3px 3px;-webkit-border-radius:0 0 3px 3px;border-radius:0 0 3px 3px}
+
+
+  .navbar-toggle{background-color:#e14376}
+  .bb_p{border-bottom:3px solid #e14376}
+  .row{margin-left:0;margin-right:0}
+  .menu-upright{padding-right:40px}
+  .menu-upright li{font-size:11px}
+  .menu-upright li a{padding:10px;color:#969696}
+  .menu_downright{padding-right:15px}
+  .menu_downright li{font-size:14px}
+  .menu_downright li a{padding-left:25px;padding-right:25px;color:#e55c88}
+  .border-top{border-top:2px solid #e14376}
+  .margin-bottom{margin-bottom:0}
+  .menu_downright li a:hover{background-color:#e55c88;color:#fff}
+  .search-text{border-radius:8px;border-style:none;background-color:#efefef;padding:4px;text-align:center}
+  .search{background-image:url(../images/search.png);width:16px;background-repeat:no-repeat;border-style:none;background-color:#efefef;right:-25px;height:18px;top:3px;position:absolute}
+  .wrapper{position:relative;width:75%;margin-top:10px}
+  .logo{max-width:185px!important}
+  .ba-details{padding:0 10px}
+  .banner{position:relative;padding:0}
+  .banner .carousel{margin-bottom:0}
+  .banner-text1{position:absolute;bottom:15px;background-color:#e14376;color:#fff;text-align:left}
+  .banner-text1 h1{color:#fff;font-size: 24px;padding: 0px;}
+  footer a{color:#333;}
+  .footer-middle ul li a{padding:4px 0}
+  .footer-up{background-color:#e55c88;color:#fff}
+  .footer-up a{color:#fff}
+  .footup-pad{padding:7px 0}
+  .footer-middle{background-color:#343434;padding-top:10px;padding-bottom:10px;border-bottom:3px solid #e14376}
+  .footer-middle .container div{padding-left:0}
+  .footer-middle .container div:last-child{padding:20px 0}
+  .footer-middle .container div:last-child ul li a{display:initial}
+  .padding{padding:20px 0}
+  h2,h1{text-align:center;padding-bottom:30px}
+  h1,h2,h3{color:#e55c88}
+  .text-align{text-align:center}
+  .submit{background-color:#e55c88;color:#fff}
+  .padding-bottom{padding-bottom:30px}
+
+  .date-picker{background:url(../images/date.png) no-repeat;background-position:right;-webkit-appearance:none;-moz-appearance:none}
+  .down-arrow{background:url(../images/arrow-down.png) no-repeat;background-position:right;-webkit-appearance:none;-moz-appearance:none}
+  .border-right{border-right:2px solid #e55c88}
+  .border-left{border-left:2px solid #e55c88}
+  .h4{color:#bdbdbd}
+  .vertical-align{vertical-align:middle}
+  .border-bottom{border-bottom:3px solid #989898}
+  .services div p{padding:20px 0}
+  .services div a{background-color:#e55c88}
+  .banner-contents{position:absolute;bottom:0;margin:auto;left:127px;padding:0}
+  .banner-text{background-color:#e14376;color:#fff;bottom:-140px}
+  .banner-form{background-color:#fff;padding:0;position:absolute;right:0;bottom:0}
+  .pink-back{background-color:#e14376;color:#fff}
+  .padding-lr{padding:0 20px}
+  .content{background-color:#f0efef}
+  .doc-profile{text-align:center;background-color:#fff;padding:20px 10px;margin-left:20px;border-radius:5%}
+  .doc-profile a{color:#e14376}
+  .dotted-border{border-bottom:2px dotted;margin-bottom:0}
+  .newthings{margin-left:20px}
+  .newthings .row{border-bottom:1px solid;padding-top:20px;padding-right:20px;padding-bottom:28px}
+  .newthings .row:last-child{border:none}
+  .tips-desc{text-align:left;background-color:#ff99ba;color:#fff;padding:10px;margin:15px 0;border-radius:5%}
+  .services-offer ul{padding-left:0}
+  .services-offer li{border-radius:30%;list-style:none;background-color:#fff;margin:15px 0;padding-top:5px;padding-left:10px}
+  .services-offer ul li a p{padding-left:10px;color:#e14376}
+  .list-inline>li{padding-left:0;padding-right:0}
+  .doc-profile .caption{padding-top:15px}
+  .doc-profile .caption p{padding-top:15px;padding-bottom:15px}
+  .problems div{margin-right:45px}
+  .problems p{color:#e14376}
+  .problems div:last-child{margin-right:0}
+  .list-group-item.active,.list-group-item.active:focus,.list-group-item.active:hover{background-color:#e14376;border-color:#e14376}
+  .service-desc .well{background-color:#ff99ba;color:#fff}
+  .service-desc p{line-height:25px;padding:10px 15px;margin:0}
+  .service-desc h1{margin-top:0;padding-left:15px}
+  .service-desc .col-md-9,.service-desc .col-md-3{padding:0}
+  .service-desc span{color:#fff;font-size:20px}
+  .service-desc img{width:140px;height:140px;border-radius:50%}
+  .doc-profile .glyphicon{color:#ff99ba;left:90px;top:-16px}
+  .content-separator div:last-child{padding-right:0;padding-left:0}
+  .content-separator div:first-child{padding-left:0;padding-right:0}
+  .content-separator{padding:30px 0}
+  .content-separator .col-md-5 img{width:100%}
+  .problems{padding-bottom:60px}
+  .ja_footer{width:100%;float:left;background:#343434 url(../images/f-t-bg.jpg) repeat-x top right;border-bottom:2px #e14376 solid}
+  .ja_footer .container .list-inline div{padding-left:0;padding-right:0}
+  .list-inline{margin-left:0}
+  .ja_footer .container .list-inline li{line-height:30px}
+  footer{width:100%;float:left}
+  #follow-us{padding-top:30px}
+  #follow-us li{float:left;width:40px!important;margin-right:10px}
+  #follow-us li:last-child{margin-right:0}
+  #follow-us img{vertical-align:none;width:100%}
+  .star{min-height:20px;background:url(../images/star.png) no-repeat}
+  .active .star{min-height:20px;background:url(../images/star-white.png) no-repeat}
+  .contact-details .row{padding-bottom:20px}
+  .map blockquote{border-left:5px solid #e14376;padding:0 20px}
+  .submit{padding:5px 24px;border-radius:16px}
+  .#{padding-top:30px;padding-bottom:30px}
+  .doc-name{border-radius:0;background-color:#ff99ba!important;margin:14px 0;border-color:#ff99ba!important;color:#fff!important}
+  .newthings .media-heading{color:#e14376}
+  .description{margin:auto;font-size:18px;padding-bottom:30px}
+  .lp{color:#ff99ba}
+  .aboutus-upp{margin:auto;padding-bottom:20px}
+  .pt30{padding-top:30px}
+  .f16{font-size:16px}
+  .f18{font-size:18px}
+  .aboutus-upp p{font-size:18px;color:#e14376;font-family:Lucida Bright}
+  .aboutus-upp span{color:#ff99ba;font-size:18px;font-family:Lucida Calligraphy}
+  .carousel-control.left{background-image:none}
+  .carousel-control.right{background-image:none}
+  .carousel-caption{right:0;left:0;padding-bottom:0;padding-top:0;bottom:0}
+  .firstcharacter{float:left;font-size:75px;line-height:60px;font-family:monospace}
+  .glow-factor{padding:10px 30px 30px;text-align:justify}
+  .gf-date{text-align:center;background:url(../images/time.png) no-repeat 20%;padding-bottom:5px;color:#b6b6b6}
+  .gf-heading{color:#333;padding:10px 0 30px;text-align:center;font-size:20px}
+  .banner img{padding:0}
+  .full-width ul li a:hover{color:#fff}
+  .full-width ul li ul li a:hover,.search1 a{color:#e55c88}
+  .qualifications .joseph-qual{background:#feebf6 none repeat scroll 0 0;border:2px solid #fcd2eb;border-radius:170px;padding:20px 25px;min-height:250px;width:250px;font-size:12px;margin:auto}
+  .cosmetic-dermatology img{width:170px;min-height:169px;max-height:170px;margin:auto}
+  .clinical-dermatology p,.cosmetic-dermatology p,.pediatric p,.hairdisorder p,.genital p,.cosmetic-surgery p{color:#e14376}
+  .pediatric img,.hairdisorder img{width:330px;min-height:329px;max-height:330px;margin:auto}
+  .services img{width:300px;min-height:299px;max-height:300px;margin:auto;border:2px solid #fbd5e1}
+  .genital img,.cosmetic-surgery img{width:160px;min-height:159px;max-height:160px;margin:auto}
+  .clinical-dermatology img{width:140px;min-height:149px;max-height:150px;margin:auto}
+  .doc-profile img{margin:auto;border-radius:50%}
+  .pic-border{padding:2px;border:2px solid #fbd5e1}
+  .aboutus .col-md-4 img{width:310px;height:310px;margin-top:60px}
+  .lh{line-height:1.7em}
+  .doctors .thumbnail{border:none}
+  .ja_footer a{display:inline}
+  .navbar-toggle .icon-bar{background-color:#fff}
+  .qualifications{text-align:left;font-size: 11px;}
+  .qualifications .quali{background:#feebf6 none repeat scroll 0 0;border:2px solid #fcd2eb;border-radius:170px;padding:20px 15px;min-height:310px;width:306px;margin:auto}
+  .qualifications .quali .col-sm-4{padding-right:0}
+  .qualifications .quali:last-child{margin-right:0}
+  .qualifications h3{font-size:20px;color:#f80a45}
+  .qualifications p{font-size:14px}
+  .doc-desc{padding:30px 0;text-align:justify}
+  .doc-desc span{color:#f80a45}
+  .red{color:#f80a45}
+  .work-experience{border-radius:30px;border:2px solid #f80a45}
+  .proficiency ul li{color:#333}
+  .awards table{width:100%}
+  td,th{border:none!important}
+  .pdl0{padding-left:0}
+  .pdr0{padding-right:0}
+  .pink{color:#e55c88!important}
+  .doctor-membership ul{padding-left:0;color:#333}
+  .doc-contact{border-radius:30px;border:2px solid #e55c88}
+  .whiteborder{border-radius:50%;border:5px solid #fff;float:left;margin-top:-178px;margin-left:41px}
+  .doctors .col-md-4{margin-top:200px}
+  .doctors img{width:250px;height:250px;border:2px solid #fbd5e1;float:left}
+  .feedback-remark th,.feedback-remark td{text-align:center;vertical-align:middle}
+  .feedback-remark th{color:#989495}
+  .feedback-remark td:first-child{color:#e55c88;text-align:right;font-size:15px}
+  input[type="radio"]:checked:before{content:"";display:block;position:relative;top:3px;left:3px;width:6px;height:6px;border-radius:50%;background:#e55c88}
+  .doc-desc img{width:300px;height:300px;margin:auto}
+  .doc-desc .col-md-8 p{font-size:15px}
+  .joseph-exp th span{color:#595959;font-size:21px}
+  .joseph-exp td span{color:#646464}
+  .joseph-exp .table-responsive{border:2px solid #e55c88;padding:30px;border-radius:30px}
+  .otherdetails .col-md-4 ul{padding-left:15px}
+  .otherdetails .col-md-8{padding:20px;border:2px solid #e55c88;border-radius:30px}
+  .doc-desc .col-md-4 p{font-size:18px}
+  .testimonial .col-md-3 h5{color:#afafaf}
+  .testimonial .col-md-3 p{color:#b9b9b9}
+  .testimonial .col-md-3 .media{border-radius:8px;padding:5px 5px 5px 0}
+  .testimonial .col-md-3{border:2px solid #e14376;padding:50px;border-radius:30px}
+  .testimonial .col-md-9 .media{background-color:#eeeced}
+  .testimonial .col-md-3 a:hover{color:#fff}
+  .sitemap ul li a{color:#e14376}
+  .carousel-control{top:175px;bottom:initial}
+  .pt10{padding-top:10px}
+  .gallery img{box-shadow:0 8px 6px 0 #dcdcdc}
+  .gallery h4{color:#333;padding:10px 0 20px}
+  .news img{width:150px;height:150px;border-left:3px solid #e14376}
+  .modal-header span{font-size:40px;color:blue}
+  .modal-content{background:transparent;box-shadow:none;border:none}
+  .modal-header{border:none}
+  .news .media-body{padding-left:30px}
+  .news .media-body span a,.news .media-body span a:hover,.news .media-body span a:active{color:#e14376}
+  .pd10{padding:10px}
+  .mar0{margin:0}
+  .martop0{margin-top:0}
+  .bb-light{border-bottom:1px solid #e4e5e6}
+  .old-post a{padding:15px 20px;color:#e14376;background-color:#eae6e8;border-radius:5px}
+  .blog .col-md-8 .col-md-11 div span{color:#757373;font-weight:700;font-size:15px}
+  .blog .col-md-8{border-right:1px solid #e4e5e6}
+  .pb10{padding-bottom:10px}
+  .tags span{background-color:#e14376;color:#fff;float:left;margin:2px;padding:10px}
+  .tags .active{background-color:#858282;color:#fff}
+  .blog-footer{background:#343434;color:#c3c1c1;border-top:3px solid #e14376}
+  .date{width:60px}
+  .bl-lightpink{border-left:3px solid #ff99ba;border-radius:50%}
+  .newthings img{width:105px;height:105px}
+  .submit:hover{background-color:#e55c88;color:#fff}
+  .subservicesdata img{cursor:pointer}
+  .margin30{margin:30px 0}
+  .awards table th{font-size:18px;color:#e55c88}
+  .pl15{padding-left:15px!important}
+  .pb15{padding-bottom:15px}
+  .pb10{padding-bottom:10px}
+  .testimonial .col-md-9 .media{background:url(../images/testimonial.png);padding:27px;background-repeat:no-repeat;background-color:#eeeced;background-size:contain!important}
+  .work-experience ul{padding:0 60px!important}
+  #appointment label,.contact-us label{color:#555;font-weight:400}
+  .get-in-tc{border-left:5px solid #e14376;padding:1px 20px}
+  .pagging{float:right;color:#e14376}
+  .pagging .right a{color:#fff;padding:9px;background-color:#e14376;border-radius:5px}
+  .pagging .right a:hover{background-color:#e55c88}
+  #total_count{padding-bottom:10px;margin-left:70px}
+  .dermcos-clinic,.vision1{line-height:30px}
+  .ba-details .pull-right a:hover{color:#fff}
+  ; .fi{font-style:italic}
+  @media only all and (min-width: 1201px) {
+  .banner-text1{width:63.2%}
+  .banner-form{right:8.8%}
+  .carousel-caption{left:9%}
+  .banner-form{width:19%}
+  .gallery img{max-width:350px;max-height:300px;min-width:349px;min-height:299px;margin:auto}
+  .lh26{line-height:26px}
+  .lh28{line-height:28px}
+  }
+  @media only all and (min-width: 993px) and (max-width: 1999px) {
+  #follow-us li{width:30px!important;margin-right:10px}
+  #follow-us li:last-child{margin-right:0}
+  #follow-us img{width:100%}
+  }
+  @media only all and (min-width: 993px) {
+  .aboutus-upp{width:50%}
+  .modal-dialog{width:800px}
+  #imagepreview{width:800px!important;height:auto;margin:auto}
+  .media-image div:nth-child(4){clear:left}
+  .gallery div:nth-child(4){margin-left:200px}
+  .awards table .col-md-1{width:4%}
+  .genital div,.cosmetic-surgery div{margin-right:39px}
+  .gallery div:nth-child(4n){clear:left}
+  .genital div:nth-child(5n),.cosmetic-surgery div:nth-child(5n),.clinical-dermatology div:nth-child(5n){margin-right:0}
+  .genital div:nth-child(6n),.cosmetic-surgery div:nth-child(6n){clear:both}
+  .cosmetic-surgery div:nth-child(6n){margin-left:235px}
+  .doctors .well{min-height:350px}
+  .testimonial .col-md-9 .media{background:url(../images/testimonial.png);padding:27px;background-repeat:no-repeat;background-color:#eeeced}
+  .testimonial .col-md-9 .media p{font-size:17px}
+  .banner-form h4{font-size:14px}
+  .cosmetic-dermatology div:nth-child(7n){clear:left}
+  }
+  .media .thumbnail a>img,.media .thumbnail>img{margin-right:auto;margin-left:auto;height:235px;width:100%;padding:10px}
+  @media only all and (min-width: 768px) {
+  /* .navbar-wrapper{margin-top:20px}
+  .navbar-wrapper .container{padding-right:15px;padding-left:15px}
+  .navbar-wrapper .navbar{padding-right:0;padding-left:0;border-radius:4px} 
+  .carousel-caption p{margin-bottom:20px;font-size:14px;line-height:1.4}
+  .featurette-heading{font-size:50px}
+  .service-desc img{width:170px!important;height:170px!important;border-radius:50%}
+  #imagepreview{width:650px!important;height:auto;margin:auto}
+  .media .thumbnail a>img,.media .thumbnail>img{margin-right:auto;margin-left:auto;height:235px;width:100%;padding:10px}
+  .keloids{margin-top:70px}
+  .warts{margin-top:60px}
+  }
+  @media only all and (max-width: 767px) {
+  .menu_downright{width:100%;}
+  .cosmetic-dermatology img,.pediatric img,.hairdisorder img,.genital img,.cosmetic-surgery img{width:140px;min-height:139px;max-height:140px;margin:auto}
+  .clinical-dermatology img{width:140px;min-height:149px;max-height:150px;margin:auto}
+  .cosmetic-surgery div:nth-child(7){clear:left}
+  .testimonial .col-md-9 .media{padding:20px;background:url(../images/testimonial.png);padding:27px;background-repeat:no-repeat;background-color:#eeeced;background-size:cover!important}
+  .testimonial .col-md-3{margin-top:30px}
+  .services img{width:250px;min-height:249px;max-height:250px;margin:auto}
+  .banner-text1 h1,.banner-form h4{font-size:10px;padding: 0px;}
+  .banner-text1 p{font-size:8px}
+  .menu-upright,.menu_downright{float:left!important}
+  .navbar-toggle{margin-top:35px}
+  .foot-backcolor{background-color:#e14376}
+  .ja_footer .container{padding:0}
+  .ja_footer li a{padding-left:20px;font-size: 16px;}
+  .list-unstyled{padding: 10px 0px;}
+  #follow-us li a{padding-left:0}
+  #follow-us li:first-child{padding-left:10px}
+  #follow-us{padding-top:10px}
+  #follow-us img{width:30px}
+  #follow-us li{width:auto!important}
+  .services{padding-bottom:0}
+  .contact-us .border-left{border:none}
+  .qualifications .quali{padding:15px!important;width:250px!important;margin:auto auto 30px!important;min-height:250px!important;font-size:10px!important}
+  .qualifications .col-xs-12{margin:auto}
+  .qualifications .joseph-qual{margin-bottom:10px}
+  .genital div:nth-child(3){clear:left}
+  .date{margin-left:20px;margin-bottom:20px}
+  .blog .col-md-8{border-right:none}
+  }
+  @media only all and (min-width: 768px) and (max-width: 992px) {
+  .testimonial .col-md-9 .media p{font-size:15px}
+  .doc-profile{min-height:590px;margin-left:0}
+  .gallery div:nth-child(4n){clear:left}
+  .gallery img{min-width:209px;max-width:210px;min-height:179px;max-height:180px;margin:auto}
+  .banner-form h4{font-size:14px}
+  .aboutus .col-md-4 img{width:235px;height:235px;margin-top:30px}
+  #follow-us li{float:left;width:25px;margin-right:5px}
+  .newthings{margin-left:0}
+  .newthings .row{padding-right:0}
+  .menu_downright li a{padding-left:15px;padding-right:15px}
+  .qualifications .quali{padding:22px 0!important;min-height:235px!important;width:235px!important;font-size:10px!important}
+  .qualifications .quali div{padding-left:12px}
+  .qualifications .joseph-qual{background:#feebf6 none repeat scroll 0 0;border:2px solid #fcd2eb;border-radius:170px;padding:17px;min-height:180px;width:180px;font-size:10px;padding:10px 25px 25px 25px}
+  .qualifications .col-md-5,.qualifications .col-md-7{padding:0}
+  .joseph-qual h3{font-size:10px!important}
+  .cosmetic-dermatology img{width:130px;height:130px;min-height:129px;max-height:130px}
+  .pediatric img{width:230px;min-height:229px;max-height:230px;margin:auto}
+  .hairdisorder img{width:230px;min-height:229px;max-height:230px;margin:auto}
+  .genital div,.cosmetic-surgery div,.services div{margin-right:0}
+  .genital div:nth-child(4),.services div:nth-child(4n){clear:left}
+  .cosmetic-surgery div:nth-child(4),.cosmetic-surgery div:nth-child(7){clear:left}
+  .services div img{min-height:225px;width:250px}
+  .whiteborder{margin-left:0}
+  .doctors img{width:210px;height:210px}
+  .doctors h3{font-size:17px}
+  .doctors p{font-size:12px}
+  .doctors .well{padding:0}
+  }
+  @media only all and (max-width: 575px) {
+  .banner-form img{width:12px}
+  .banner-form p{font-size:10px;padding-top:5px}
+  .feedback-remark td:first-child{font-size:12px!important}
+  .aboutus .col-md-4 img{width:140px;height:140px;margin-top:30px}
+  .whiteborder{margin:-178px 95px 0}
+  }
+  @media only all and (min-width: 500px) and (max-width: 767px) {
+  .gallery img{min-width:199px;max-width:200px;min-height:169px;max-height:170px;margin:auto}
+  .testimonial .col-md-9 .media{font-size:12px!important;background-size:contain!important}
+  #imagepreview{width:450px;height:auto;margin:auto}
+  }
+  @media only all and (max-width: 480px) {
+  .whiteborder{margin:-178px 65px 0}
+  }
+  @media only all and (max-width: 449px) {
+  .menu-upright li a{padding:0}
+  .menu-upright{padding-right:0}
+  .awards .well{padding:0;font-size:12px}
+  .clinical-dermatology div,.cosmetic-dermatology div,.pediatric div,.hairdisorder div,.genital div,.cosmetic-surgery div,.services div,.gallery div{clear:both!important;width:100%!important;margin:auto!important}
+  .news .media-left{width:100%;margin:auto;float:none;display:block}
+  .news .media-body{width:100%;display:block}
+  .testimonial .col-md-9 .media{font-size:12px!important}
+  .work-experience ul{padding:0 30px!important}
+  #imagepreview{width:290px;height:auto;margin:auto}
+  }
+  @media only all and (min-width: 410px) and (max-width: 450px) {
+  .list-inline > li{padding-right:5px!important}
+  }
+  @media only all and (min-width: 320px) and (max-width: 360px) {
+  .doc-desc img{width:250px!important;height:250px!important}
+  .testimonial .col-md-9 .media{font-size:10px!important}
+  .aboutus .col-md-4 img{width:140px;height:140px;margin-top:30px}
+  .whiteborder{margin-left:30px;margin-right:30px}
+  .whiteborder img{width:210px;height:210px}
+  }
+  b,strong{font-size:16px}
+  .h1,h1{font-size:30px}
+  .btn-breadcrumb .btn:not(:last-child):after{content:" ";display:block;width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-left:10px solid #fff;position:absolute;top:50%;margin-top:-17px;left:100%;z-index:3}
+  .btn-breadcrumb .btn:not(:last-child):before{content:" ";display:block;width:0;height:0;border-top:17px solid transparent;border-bottom:17px solid transparent;border-left:10px solid #adadad;position:absolute;top:50%;margin-top:-17px;margin-left:1px;left:100%;z-index:3}
+  .btn-breadcrumb .btn{padding:6px 12px 6px 24px;border:none}
+  .btn-breadcrumb .btn:first-child{padding:6px 6px 6px 10px}
+  .btn-breadcrumb .btn:last-child{padding:6px 18px 6px 24px;color:#fff;background-color:#e55c88;border-color:#adadad}
+  .btn-group .btn+.btn,.btn-group .btn+.btn-group,.btn-group .btn-group+.btn,.btn-group .btn-group+.btn-group{margin-left:0}
+  .btn-breadcrumb .btn.btn-default:not(:last-child):after{border-left:10px solid #fff}
+  .btn-breadcrumb .btn.btn-default:not(:last-child):before{border-left:10px solid #ccc}
+  .btn-breadcrumb .btn.btn-default:hover:not(:last-child):after{border-left:10px solid #e55c88}
+  .btn-breadcrumb .btn.btn-default:hover:not(:last-child):before{border-left:10px solid #adadad}
+  .emailtxtcolor{color:#333}
+  .mgb10{margin-bottom:10px}
+  .btn-breadcrumb > * > div{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .btn-breadcrumb > :nth-child(n+2){display:none}
+  .btn-breadcrumb .btn-default.active,.btn-breadcrumb .btn-default.focus,.btn-breadcrumb .btn-default:active,.btn-breadcrumb .btn-default:focus,.btn-breadcrumb .btn-default:hover,.btn-breadcrumb .open>.dropdown-toggle.btn-default{color:#fff;background-color:#e55c88;border-color:#adadad}
+  @media (max-width: 767px) {
+  .btn-breadcrumb > :nth-last-child(-n+2){display:block}
+  .btn-breadcrumb > * div{max-width:60px}
+  .carousel-control{top:110px;}
+  .list-unstyled li{margin-bottom: 10px;}
+  }
+  @media (min-width: 768px) and (max-width:991px) {
+  .btn-breadcrumb > :nth-last-child(-n+4){display:block}
+  .btn-breadcrumb > * div{max-width:100px}
+  }
+  @media (min-width: 992px) {
+  .featurette-heading{margin-top:120px}
+  .btn-breadcrumb > :nth-last-child(-n+6){display:block}
+  .btn-breadcrumb > * div{max-width:170px}
+  }
+  #pg-404{width:100%;height:500px;background:#f7f7f7}
+  .txt-dr{width:50%;float:left}
+  .txt-dr p{color:#000;font-size:36px;font-weight:700;margin-top:100px}
+  .tk-hm{width:43%;background:#ff99ba;padding:1px 19px}
+  .tk-hm h1 a{text-decoration:none;color:#fff;font-size:20px}
+  a[href^=tel]{color:inherit;text-decoration:none}
+
+  .ttpy{float:left; margin-top:15px;}
+  .gsearchs{float:left; margin-top:-5px;width:150px;}
+  .gsearchs .wrapper{width:100%;}
+  .gsearchs .cse .gsc-control-cse, .gsc-control-cse{padding:0 !important;}
+  .gsearchs .gsib_a{padding:0 !important;}
+  .gsearchs input.gsc-input{width:130px !important; font-size: 14px !important;}
+  .gsearchs .gsc-search-box-tools .gsc-search-box .gsc-input{padding-right:0 !important;}
+  .gsearchs input.gsc-search-button-v2{padding:11px 10px !important; background-color: #e55c88 !important; margin-top:3px !important;}
+  .gsearchs a.gsst_a{padding:0 !important;}
+
+  .ourh2{color: #e55c88;
+      float: left;
+      font-size: 30px;
+      padding: 30px 0;
+      text-align: center;
+      width: 100%;}
+    
+  .bannerh1 {
+      color: #fff;
+      font-size: 24px;
+      padding: 0;
+  }
+
+
+
+
+
+  .icon-barsd {
+    position: fixed;
+  z-index: 1111111;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  .icon-barsd a {
+    display: block;
+    text-align: center;
+    padding: 11px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+  }
+  .icon-barsd a:hover {
+      background-color: #1dd22b;
+  }
+
+  .facebooks {
+    background: #e14376;
+    color: white;
+  }
+     */

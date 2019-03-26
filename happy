@@ -1,0 +1,159 @@
+<?php
+include"head.php";
+
+
+?>
+	
+	<style>
+	
+	#img1{
+		
+		height:80%;
+		width:80%;
+		
+	}
+	
+	
+	</style>
+	<!-- Intro doctors Section Starts -->
+		<section class="section-area intro-about text-center-xs">
+		<!-- Nested Container Starts -->
+			<div class="container">
+				<center><h1 class=""style="margin-top: 70px;"></h1></center>
+				<hr>
+				<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						
+						<img id="img1"src="images/m1.jpg" alt="Image" class="img-responsive img-center">
+					<center><p>Miracle - I
+					</p></center>
+					</div>
+					<div class="col-md-8 col-sm-7 col-xs-12" style="font-size:100%";>
+						<p><strong><div><h2>Miracle - I</h2></div> </strong><ul>
+						    <li
+						</ul>
+					</div>
+					</div>
+					<hr>
+					
+					<!-- start row-->
+					
+					<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						
+						<img id="img1"src="images/doctors/1.jpeg" alt="Image" class="img-responsive img-center">
+					<center><p>Dr Meeta Airen
+					</p></center>
+					</div>
+					<div class="col-md-8 col-sm-7 col-xs-12" style="font-size:100"%;>
+					<div class="pull-left"><h2>Dr Meeta Airen</h2><p>Senior. IVF Consultant</p><p><b>About Dr. Meeta</b> :</p><p>Dr Meeta Airen has over 10 yrs of experience in obstetrics and gynaecologist. She has been working in the field of reproductive medicine since long and worked with many renowned infertility specialists.</p><p>&nbsp;</p></div>
+					</div>
+					</div>
+					<!-- start row-->
+<hr>
+            
+
+                   					<!-- start row-->
+					
+		
+					<!-- start row-->
+
+
+
+					<!-- start row-->
+					
+					<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						
+						<img id="img1"src="images/doctors/3.jpeg" alt="Image" class="img-responsive img-center">
+					<center><p>Dr Archana Bhayana
+					</p></center>
+					</div>
+					<div class="col-md-8 col-sm-7 col-xs-12" style="font-size:100"%;>
+					<div class="pull-left"><h2>Dr Archana Bhayana</h2><p><b>MBBS, DGO
+
+Sr. IVF Specialist , Max India IVF Clinic, Gurgaon</b></p>
+
+<p><b>17 Years Experience</b></p>
+
+<p>Dr. Archana Bhayana is a Gynecologist and Obstetrician in Max Hospital, Gurgaon and has an experience of 17 years in these fields. Dr. Archana Bhayana practices at 2nd Opinion Gynae and Dental Clinic in Gurgaon Sector 49, Gurgaon. She completed MBBS from Lala Lajpat Rai Memorial Medical College, Meerut in 1998 and DGO from kanpur University in 2001.</p>
+					<p>Some of the services provided by the doctor are: Uterus/ Uterine Prolapse Treatment,Intra-Uterine Insemination (IUI),High-Risk Pregnancy Care,Vaginoplasty and Diseases in Pregnancy etc.</p>
+					
+					</div>
+					</div>
+					</div>
+					<!-- start row-->
+
+
+
+
+
+			<!-- start row-->
+					
+					<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						
+						<img id="img1"src="images/doctors/2.jpeg" alt="Image" class="img-responsive img-center">
+					<center><p>Dr Shweta Rastogi
+					</p></center>
+					</div>
+					<div class="col-md-8 col-sm-7 col-xs-12" style="font-size:100"%;>
+					<div class="pull-left"><h2>Dr Shweta Rastogi</h2><p><b>MBBS, DGO
+
+Obstetrician
+
+, 
+Gynecologist
+
+, 
+Sr. Infertility Specialist at Metro India IVF Clinic, Noida
+
+</b></b></p>
+
+<p><b>8 Years Experience</b></p>
+
+<p>Dr. Shweta Rastogi is a Obstetrician,Gynecologist and Infertility Specialist in Sector 11, Noida and has an experience of 8 years in these fields. Dr. Shweta Rastogi practices at Metro India IVF Fertility clinic in Sector 11, Noida. She completed MBBS from LLRM MEDICAL COLLEGE in 2007 and DGO from GSVM Medical College Kanpur in 2011.<p>
+					<p>Some of the services provided by the doctor are: IVF,Natural Cycle IVF and Gynae Problems etc.</p>
+					
+					</div>
+					</div>
+					</div>
+					<!-- start row-->
+
+
+
+
+<hr>
+                   					<!-- start row-->
+					
+					<div class="row">
+					<div class="col-md-4 col-sm-5 col-xs-12">
+						
+						<img  id="img1" src="images/doctors/team7.jpg" alt="Image" class="img-responsive img-center">
+					<center><p>Shamshad Ahmed
+					</p></center>
+					</div>
+					<div class="col-md-8 col-sm-7 col-xs-12" style="font-size:100"%;>
+                   <div class="pull-left"><h2>Shamshad Ahmed</h2><p><strong>Designation: Lab Assistance</strong></p><p><b>Job Responsibility:</b> Handling all type of Lab work in Indiaivf.</p><p>&nbsp;</p></div>
+					</div>
+					</div>
+					<!-- start row-->
+					
+					
+					
+					
+
+
+
+					
+				</div>
+			</div>
+		<!-- Nested Container Ends -->
+		</section>
+	<!-- Intro About Section Ends -->
+	<!-- Footer Starts -->
+<?php
+
+include"footer.php";
+
+?>

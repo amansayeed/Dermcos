@@ -1,0 +1,1107 @@
+
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: none;
+    color: #e55c88;
+}
+.navbar-toggle{
+    background-color: #e14376;
+}
+.bb_p{
+    border-bottom: 3px solid #e14376;
+}
+.row{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.logo{
+    max-width: 100px!important;
+}
+.menu-upright{
+      padding-right: 40px;
+}
+.menu-upright li{
+      font-size: 11px;
+}
+.menu-upright li a{
+      padding: 10px;
+      color: #969696;
+}
+.menu_downright{
+    padding-right: 15px;
+}
+.menu_downright li{
+    font-size: 14px;
+    
+}
+.menu_downright li a{
+    padding-left: 25px;
+    padding-right: 25px;
+    color: #e55c88;
+}
+.border-top{
+    border-top: 2px solid #e14376;
+}
+.margin-bottom{
+    margin-bottom: 0px;
+}
+.menu_downright li a:hover{
+    background-color: #e55c88;
+    color: #fff;
+}
+.search-text{
+      border-radius: 8px;
+  border-style: none;
+  background-color: #efefef;
+  padding: 4px;
+  text-align: center;
+}
+.search{
+     background-image: url("../images/search.png");
+  width: 16px;
+  background-repeat: no-repeat;
+  border-style: none;
+  background-color: #efefef;
+  right: -25px;
+  height: 18px;
+  top: 3px;
+  position: absolute;
+}
+.wrapper {
+    position: relative;
+    width: 75%;
+    margin-top: 10px;
+}
+.logo{
+    max-width: 100px!important;
+}
+.ba-details{
+    padding: 0px 10px;
+}
+.banner{
+    position: relative;
+    padding: 0px;
+}
+.banner .carousel{
+    margin-bottom: 0px;
+}
+
+.banner-text1{
+      position: absolute;
+  bottom: 15px;
+  background-color: #e14376;
+  color: #fff;
+  text-align: left;
+}
+.banner-text1 h3{
+    color: #fff;
+}
+.footer-up .container{
+}
+.footer-middle ul li a{
+    padding: 4px 0px;
+}
+.footer-up{
+    background-color: #e55c88;
+    color: #fff;
+}
+.footer-up a{
+color: #fff;
+}
+.footup-pad{
+    padding: 7px 0px;
+}
+.footer-middle{
+    background-color: #343434;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:  3px solid #e14376;
+}
+.footer-middle .container div{
+    padding-left: 0px;
+}
+.footer-middle .container div:last-child{
+      padding: 20px 0px;
+}
+.footer-middle .container div:last-child ul li a{
+      display: initial;
+}
+.padding{
+    padding: 20px 0px;
+}
+h2{
+    text-align: center;
+      padding-bottom: 30px;
+}
+h2,h3{
+    color: #e55c88;
+}
+.text-align{
+    text-align: center;
+}
+.submit{
+    background-color: #e55c88;
+    color:#fff;
+}
+.padding-bottom{
+    padding-bottom: 30px;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.date-picker{
+        background: url("../images/date.png") no-repeat;
+  /* left: 28px; */
+  background-position: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.down-arrow{
+     background: url("../images/arrow-down.png") no-repeat;
+  /* left: 28px; */
+  background-position: right;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.border-right{
+    border-right: 2px solid #e55c88;
+}
+.border-left{
+    border-left: 2px solid #e55c88;
+}
+.h4{
+    color: #bdbdbd;
+}
+.vertical-align{
+    vertical-align: middle;
+}
+.border-bottom{
+    border-bottom: 3px solid #989898;
+}
+.get-in-tc{
+}
+.services div p{
+    padding: 20px 0px;
+}
+
+.services div a{
+background-color: #e55c88;
+}
+.banner-contents{
+      position: absolute;
+  bottom: 0px;
+  margin: auto;
+  left: 127px;
+  padding: 0px;
+}
+.banner-text{
+     background-color: #e14376;
+  color: #fff;
+    bottom: -140px;
+}
+.banner-form{
+    background-color: #fff;
+    padding: 0px;
+      position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+.pink-back{
+    background-color: #e14376;
+    color: #fff;
+}
+.padding-lr{
+    padding: 0px 20px;
+}
+.content{
+    background-color: #f0efef;
+}
+.doc-profile{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 10px;
+    margin-left: 20px;
+}
+.doc-profile a{
+    color: #e14376;
+}
+.dotted-border{
+      border-bottom: 2px dotted;
+  margin-bottom: 0px;
+}
+.newthings{
+    margin-left: 20px;
+}
+.newthings .row{
+    border-bottom: 1px solid;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 28px;
+}
+.newthings .row:last-child{
+    border: none;
+}
+.tips-desc{
+    text-align: center;
+   background-color: #ff99ba;
+    color: #fff;
+    padding: 10px;
+    margin: 15px 0px;
+}
+.services-offer ul{
+    padding-left: 0px;
+}
+.services-offer li{
+    list-style: none;
+    background-color: #fff;
+    margin: 15px 0px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.services-offer ul li a p{
+    padding-left: 10px;
+     color: #a6a8a9;
+}
+.list-inline>li{
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.doc-profile .caption{
+    padding-top: 15px;
+}
+.doc-profile .caption p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.logo-div{
+    padding-top: 20px;
+}
+.problems div{
+      margin-right: 45px;
+}
+.problems p{
+    color: #e14376;
+}
+.problems div:last-child{
+margin-right: 0px;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover{
+      background-color: #e14376;
+  border-color: #e14376;
+}
+.service-desc .well{
+    background-color: #ff99ba;
+    color: #fff;
+}
+.service-desc p{
+    line-height: 25px;
+    padding: 15px;
+}
+.service-desc h1{
+    margin-top: 0px;
+}
+.service-desc span,.service-desc h1{
+    padding-left: 15px;
+}
+.service-desc span{
+    color: #555;
+}
+.doc-profile .glyphicon{
+    color: #ff99ba;
+      left: 90px;
+      top: -16px;
+}
+.content-separator div:last-child{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.content-separator div:first-child{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.content-separator{
+    padding: 30px 0px;
+}
+.problems{
+    padding-bottom: 60px;
+}
+.full-width{
+    
+}
+
+.ja_footer{width:100%; float: left; background:#343434 url(../images/f-t-bg.jpg) repeat-x top right;
+border-bottom:2px #e14376 solid;}
+
+.ja_footer .container .list-inline div{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.list-inline{
+    margin-left: 0px;
+}
+.ja_footer .container .list-inline li{
+    line-height: 30px;
+}
+
+
+footer{width:100%; float: left; }
+#follow-us{
+    padding-top: 30px;
+}
+#follow-us li{float:left;}
+#follow-us img{
+    vertical-align: none;
+}
+.star{
+    min-height: 20px;
+    background: url(../images/star.png) no-repeat;
+}
+.active .star{
+      min-height: 20px;
+  background: url(../images/star-white.png) no-repeat;
+}
+.contact-details .row{
+    padding-bottom: 20px;
+}
+.map blockquote{
+      border-left: 5px solid #e14376;
+        padding: 0px 20px;
+}
+.submit{
+      padding: 5px 24px;
+  border-radius: 16px;
+}
+.#{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.doc-name{
+     border-radius: 0px;
+  background-color: #ff99ba!important;
+  margin: 20px 0px;
+    border-color: #ff99ba!important;
+    color: #fff!important;
+}
+.newthings .media-heading{
+   color: #e14376;
+}
+.description{
+    margin: auto;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.aboutus p{
+    line-height: 1.7em;
+}
+.aboutus-upp{
+    margin: auto;
+    padding-bottom: 20px;
+}
+.aboutus-upp p{
+    font-style: italic;
+    font-size: 18px;
+     color: #e14376;
+}
+.aboutus-upp span{
+    color: #aba6a6;
+    font-size: 18px;
+}
+.carousel-control.left{
+    background-image: none;
+}
+.carousel-control.right{
+    background-image: none;
+}
+
+.carousel-caption{
+    right: 0%;
+    left: 0%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    bottom: 0px;
+}
+.firstcharacter { 
+    float: left;
+    font-size: 75px;
+    line-height: 60px;
+    font-family: monospace; 
+    }
+.glow-factor{
+        padding: 10px 30px 30px;
+        text-align: justify;
+}
+.gf-date{
+      text-align: center;
+  background: url("../images/time.png") no-repeat 20%;
+  padding-bottom: 5px;
+  color: #b6b6b6;
+}
+.gf-heading{
+    color: #333;
+    padding: 10px 0px 30px;
+    text-align: center;
+    font-size: 30px;
+}
+.banner img{
+    padding: 0px;
+}
+.full-width ul li a:hover{
+    color: #fff;
+}
+.full-width ul li ul li a:hover,.search1 a{
+    color: #e55c88;
+}
+.qualifications .joseph-qual{
+   background: #feebf6 none repeat scroll 0 0;
+  border: 2px solid #fcd2eb;
+  border-radius: 170px;
+  padding: 20px 25px;
+  /* margin-right: 140px; */
+  min-height: 250px;
+  width: 250px;
+  font-size: 12px;
+  margin: auto;
+}
+.cosmetic-dermatology img{
+      width: 170px;
+  min-height: 169px;
+  max-height: 170px;
+  margin: auto;
+}
+.clinical-dermatology p,.cosmetic-dermatology p,.pediatric p,.hairdisorder p,.genital p,.cosmetic-surgery p{
+        color: #e14376;
+    }
+
+    .pediatric img,.hairdisorder img{
+       width: 330px;
+  min-height: 329px;
+  max-height: 330px;
+  margin: auto;
+    }
+    .services img{
+        width: 300px;
+        min-height: 299px;
+        max-height: 300px;
+        margin: auto;
+        border: 2px solid #fbd5e1;
+    }
+    .genital img,.cosmetic-surgery img{
+       width: 160px;
+  min-height: 159px;
+  max-height: 160px;
+  margin: auto;
+    }
+    .clinical-dermatology img{
+        width: 140px;
+  min-height: 139px;
+  max-height: 140px;
+  margin: auto;
+    }
+    .doc-profile img{
+        margin: auto;
+    }
+    .pic-border{
+        padding: 2px;
+        border: 2px solid #fbd5e1
+    }
+    .aboutus .col-md-4 img{
+        width: 260px;
+        height: 260px;
+        margin-top: 30px;
+    }
+    .doctors .thumbnail{
+        border: none;
+    }
+    .ja_footer a {
+    display: block;
+}
+.navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.qualifications .quali {
+    background: #feebf6 none repeat scroll 0 0;
+  border: 2px solid #fcd2eb;
+  border-radius: 170px;
+  padding: 20px 15px;
+  margin-right: 140px;
+  min-height: 310px;
+  width: 306px;
+  margin: auto;
+}
+.qualifications .quali .col-sm-4{
+padding-right: 0px;
+}
+
+.qualifications .quali:last-child {
+margin-right: 0px;
+}
+.qualifications h3{
+    font-size: 20px;
+    color: #f80a45;
+}
+.qualifications p{
+    font-size: 14px;
+}
+.doc-desc{
+      padding: 30px 0px;
+  text-align: justify;
+}
+.doc-desc span{
+    color: #f80a45;
+}
+.red {
+    color: #f81a51;
+}
+.work-experience{
+  border-radius: 30px;
+  border: 2px solid #f80a45;
+}
+.proficiency ul li{
+    color: #333;
+}
+.awards table{
+    width: 100%;
+}
+td, th{
+    border: none!important;
+}
+.pdl0{
+   padding-left: 0px; 
+}
+.pdr0{
+    padding-right: 0px;
+}
+.pink{
+    color: #e55c88!important;
+}
+.doctor-membership ul{
+    padding-left: 0px;
+    color: #333;
+}
+.doc-contact{
+    border-radius: 30px;
+  border: 2px solid #e55c88;
+}
+.whiteborder{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    float: left;
+    margin-top: -178px;
+    margin-left: 41px;
+}
+.doctors .col-md-4{
+      margin-top: 200px;
+}
+.doctors img{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #fbd5e1;
+    float: left;
+}
+.feedback-remark th,.feedback-remark td{
+      text-align: center;
+  vertical-align: middle;
+}
+.feedback-remark th{
+    color: #989495;
+}
+.feedback-remark td:first-child{
+    color: #e55c88;
+    text-align: right;
+    font-size: 15px;
+}
+input[type="radio"]:checked:before {
+    content: "";
+    display: block;
+    position: relative;
+    top: 3px;
+    left: 3px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #e55c88;
+}
+.doc-desc img{
+    width: 280px;
+    height: 280px;
+    margin: auto;
+}
+.doc-desc .col-md-8 p{
+    font-size: 15px;
+}
+.joseph-exp th span{
+    color: #595959;
+    font-size: 21px;
+}
+.joseph-exp td span{
+    color: #646464;
+}
+.joseph-exp .table-responsive{
+      border: 2px solid #e55c88;
+  padding: 30px;
+  border-radius: 30px;
+}
+.otherdetails .col-md-4 ul{
+    padding-left: 15px;
+}
+.otherdetails .col-md-8{
+    padding: 20px;
+    border: 2px solid #e55c88;
+    border-radius: 30px;  
+}
+.doc-desc .col-md-4 p{
+    font-size: 18px;
+}
+.testimonial .col-md-3 h5{
+    color: #afafaf;
+}
+.testimonial .col-md-3 p{
+    color: #b9b9b9;
+}
+.testimonial .col-md-3 .media{
+      border-radius: 8px;
+  padding: 5px 0px;
+}
+    .testimonial .col-md-3{
+          border: 2px solid #e14376;
+  padding: 50px;
+  border-radius: 30px;
+}
+.testimonial .col-md-9 .media{
+background-color: #eeeced; 
+}
+.testimonial .col-md-3 a:hover{
+    color: #fff;
+}
+.sitemap ul li a{
+    color: #e14376;
+}
+.carousel-control{
+    top: 175px;
+        bottom: initial;
+}
+.pt10{
+    padding-top: 10px;
+}
+.gallery img{
+    
+    box-shadow: 0 8px 6px 0px #dcdcdc;
+}
+.gallery h4{
+    color: #333;
+    padding: 10px 0px 20px;
+}
+.news img{
+    width: 150px;
+    height: 150px;
+    border-left: 3px solid #e14376;
+}
+.modal-header span{
+    font-size: 40px;
+        color: blue;
+}
+.modal-content{
+    background: transparent;
+    box-shadow: none;
+    border: none;
+}
+.modal-header{
+    border: none;
+}
+.news .media-body{
+    padding-left: 30px;
+}
+.news .media-body span a,.news .media-body span a:hover,.news .media-body span a:active{
+    color: #e14376;
+}
+.pd10{
+    padding: 10px;
+}
+.mar0{
+    margin: 0px;
+}
+.martop0{
+    margin-top: 0px;
+}
+.bb-light{
+    border-bottom: 1px solid #e4e5e6;
+}
+.old-post a{
+    padding: 15px 20px;
+    color: #e14376;
+    background-color: #eae6e8;
+    border-radius: 5px;
+}
+.blog .col-md-8 .col-md-11 div span{
+    color : #757373;
+    font-weight: bold;
+    font-size: 15px;
+}
+.blog .col-md-8{
+    border-right: 1px solid #e4e5e6;
+}
+.pb10{
+    padding-bottom: 10px;
+}
+.tags span{
+        background-color: #e14376;
+    color: #fff;
+    float: left;
+    margin: 2px;
+    padding: 10px;
+}
+.tags .active{
+   background-color: #858282;
+   color: #fff;
+}
+.blog-footer{
+        background: #343434;
+    color: #c3c1c1;
+    border-top: 3px solid #e14376;
+}
+.date{
+    width: 60px;
+}
+.bl-lightpink{
+      border-left: 3px solid #ff99ba;  
+}
+@media only all and (min-width: 1201px) {
+    .banner-text1{
+        width: 77%;
+    }
+    .banner-form{
+        width: 23%;
+    }
+    .gallery img{
+    max-width: 350px;
+    max-height: 300px;
+    min-width: 349px;
+    min-height: 299px;
+    margin: auto;
+}
+}
+ @media only all and (min-width: 993px) {
+     .genital div,.cosmetic-surgery div,.clinical-dermatology div{
+         margin-right: 39px;
+     }
+ .gallery div:nth-child(4n){
+    clear: left;
+}
+ .genital div:nth-child(5n),.cosmetic-surgery div:nth-child(5n),.clinical-dermatology div:nth-child(5n) {
+  margin-right: 0;
+  
+}
+.genital div:nth-child(6n),.cosmetic-surgery div:nth-child(6n) {
+clear: both;
+}
+.doctors .well{
+      min-height: 560px;
+}
+.testimonial .col-md-9 .media{
+        background: url("../images/testimonial.png");
+          padding: 27px;
+            background-repeat: no-repeat;
+  background-color: #eeeced;
+    }
+ 
+.testimonial .col-md-9 .media p{
+    font-size: 17px;
+}
+.banner-form h4{
+        font-size: 14px;
+    }
+    .thumbnail .caption div{
+        min-height: 430px;
+    }
+    .cosmetic-dermatology div:nth-child(7n){
+        clear: left;
+    }
+ }
+@media only all and (max-width: 767px) {
+    .clinical-dermatology img,.cosmetic-dermatology img,.pediatric img,.hairdisorder img,.genital img,.cosmetic-surgery img {
+      width: 140px;
+      min-height: 139px;
+      max-height: 140px;
+      margin: auto;
+    }
+    .cosmetic-surgery div:nth-child(7) {
+    clear: left;
+    }
+     .testimonial .col-md-9 .media{
+      padding: 20px;
+}
+.testimonial .col-md-3{
+    margin-top: 30px;
+}
+    .services img {
+    width: 250px;
+    min-height: 249px;
+    max-height: 250px;
+    margin: auto;
+    }
+    .banner-text1 h3,.banner-form h4{
+        font-size: 10px;
+    }
+    .banner-text1 p{
+        font-size: 8px;
+    }
+    .menu-upright,.menu_downright{
+        float: left!important;
+    }
+    .navbar-toggle{
+        margin-top: 35px;
+    }
+    .foot-backcolor{
+        background-color: #e14376;
+    }
+    .ja_footer .container{
+        padding: 0px;
+    }
+    .ja_footer li a{
+        padding-left: 20px;
+    }
+    #follow-us li a{
+    padding-left: 0px;
+    }
+    #follow-us li:first-child{
+        padding-left: 10px;
+    }
+    #follow-us{
+        padding-top: 10px;
+    }
+    .services{
+        padding-bottom: 0px;
+    }
+    .contact-us .border-left{
+        border: none;
+    }
+    .qualifications .quali {
+  padding: 15px!important;
+  width: 250px!important;
+  margin: auto auto 30px auto!important;
+  min-height: 250px!important;
+  font-size: 10px!important;
+    }
+    .qualifications .col-xs-12{
+        margin: auto;
+    }
+    .qualifications .joseph-qual{
+    margin-bottom: 10px;
+    }
+    .genital div:nth-child(3){
+        clear:left;
+    }
+    .date{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .blog .col-md-8{
+        border-right: none;
+    }
+}
+
+@media only all and (min-width: 768px) and (max-width: 992px) {
+    .testimonial .col-md-9 .media p{
+        font-size: 15px;
+    }
+    .doc-profile{
+        min-height: 590px;
+        margin-left: 0px;
+    }
+    .gallery div:nth-child(4n){
+    clear: left;
+    }
+    .gallery img{
+        min-width: 209px;
+        max-width: 210px;
+        min-height: 179px;
+        max-height: 180px;
+        margin: auto;
+    }
+    .banner-form h4{
+        font-size: 14px;
+    }
+    .aboutus .col-md-4 img {
+    width: 235px;
+    height: 235px;
+    margin-top: 30px;
+    }
+    #follow-us li{
+        float: none;
+    }
+    .newthings{
+        margin-left: 0px;
+    }
+    .newthings .row{
+       padding-right: 0px; 
+    }
+    .menu_downright li a{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .qualifications .quali{
+    padding: 22px 0px !important;
+    min-height: 235px!important;
+    width: 235px!important;
+    font-size: 10px!important;
+    }
+    .qualifications .quali div{
+          padding-left: 12px;
+    }
+    .qualifications .joseph-qual{
+    background: #feebf6 none repeat scroll 0 0;
+    border: 2px solid #fcd2eb;
+    border-radius: 170px;
+    padding: 17px;
+    min-height: 180px;
+    width: 180px;
+    font-size: 10px;
+    padding: 10px 25px 25px 25px;
+    }
+    .qualifications .col-md-5,.qualifications .col-md-7{
+        padding: 0px;
+    }
+    .joseph-qual h3{
+        font-size: 10px!important;
+    }
+    .cosmetic-dermatology img{
+        width: 130px;
+        height: 130px;
+        min-height: 129px;
+        max-height: 130px;
+    }
+    .pediatric img {
+      width: 230px;
+      min-height: 229px;
+      max-height: 230px;
+      margin: auto;
+    }
+    .hairdisorder img {
+      width: 230px;
+      min-height: 229px;
+      max-height: 230px;
+      margin: auto;
+    }
+    .genital div,.cosmetic-surgery div,.services div {
+    margin-right: 0;
+    }
+    .genital div:nth-child(4),.services div:nth-child(4n){
+    clear: left;
+    }
+    .cosmetic-surgery div:nth-child(4),.cosmetic-surgery div:nth-child(7){
+        clear: left;
+    }
+    .services div img{
+    min-height: 225px;
+    width: 250px;
+    }
+    .whiteborder{
+        margin-left: 0px;
+    }
+    .doctors img {
+    width: 210px;
+    height: 210px;
+    }
+    .doctors h3{
+        font-size: 17px;
+    }
+    .doctors p{
+        font-size: 12px;
+    }
+    .doctors .well{
+        padding: 0px;
+    }
+    .testimonial .col-md-9 .media{
+        background: url("../images/testimonial.png");
+            padding: 19px;
+            margin-bottom: 30px;
+    }
+}
+@media only all and (max-width: 575px) {
+    .banner-form img{
+        width: 12px;
+    }
+    .banner-form p{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    .feedback-remark td:first-child{
+        font-size: 12px!important;
+    } 
+    .aboutus .col-md-4 img {
+  width: 140px;
+  height: 140px;
+  margin-top: 30px;
+}
+.whiteborder{
+      margin: -178px 95px 0px;
+}
+}
+@media only all and (min-width: 500px) and (max-width: 767px) {
+    .gallery img{
+        min-width: 199px;
+        max-width: 200px;
+        min-height: 169px;
+        max-height: 170px;
+        margin: auto;
+    }
+}
+@media only all and (max-width: 480px) {
+    .whiteborder{
+        margin: -178px 65px 0px;
+    }
+}
+@media only all and (max-width: 449px) {
+    .menu-upright li a{
+        padding: 0px;
+    }
+    .menu-upright{
+        padding-right:0px;
+    }
+    .awards .well{
+        padding:0px;
+        font-size: 12px;
+    }
+    .clinical-dermatology div,.cosmetic-dermatology div,.pediatric div,.hairdisorder div,.genital div,.cosmetic-surgery div,.services div,.gallery div{
+        clear: both!important;
+        width: 100%!important;
+        margin: auto!important;
+    }
+    .news .media-left{
+    width: 100%;
+    margin: auto;
+    float: none;
+    display: block;
+    }
+    .news .media-body{
+    width: 100%;
+    display: block;
+    }
+    .news img{
+        margin: auto;
+    }
+}
+@media only all and (min-width: 320px) and (max-width: 360px) {
+    .doc-desc img{
+        width: 250px!important;
+        height: 250px!important;
+    }
+    .aboutus .col-md-4 img {
+  width: 140px;
+  height: 140px;
+  margin-top: 30px;
+}
+.whiteborder{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.whiteborder img{
+width: 210px;
+height: 210px;
+}
+}
+
